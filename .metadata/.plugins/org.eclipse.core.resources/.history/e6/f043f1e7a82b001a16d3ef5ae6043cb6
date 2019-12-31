@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Welcome to my page</title>
+</head>
+<body>
+	<div align="center">
+	
+	<h1>&lt;오늘도 화목한 멀티캠퍼스 1501 강의실&gt;</h1>
+	<h2> 저의 친구들을 소개합니다!</h2>
+	</div>
+	<ol>
+	<!-- 황제윤 -->
+		<li>
+		<h3>작성자: 황제윤</h3>
+		<img src= /clientweb/images/jy.jpeg /width="400" height="500"
+									border="3"></br>
+		
+		<b>특징</b>
+				<ul >
+				<li >사소성이 좋음 (말이 많음)</li>
+				<li>활동적임 (가만히 있지 못함)</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+	<!-- 이정윤형 -->
+		<li>
+		<h3>이정윤</h3>
+		<img src= /clientweb/images/lee.jpeg /width="400" height="500"
+		border="3"></br>
+		<b>특징</b>
+				<ul >
+				<li >우리들의 반장</li>
+				<li>코딩 능력자</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+		
+		<!-- 김서연누나 -->
+		<li>
+		<h3>김서연</h3>
+		<img src= /clientweb/images/kims.png /width="400" height="500"
+		border="3"></br>
+		<b>특징</b>
+				<ul >
+				<li >사소성이 좋음 (말이 많음)</li>
+				<li>활동적임 (가만히 있지 못함)</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+		<!-- 박누리 -->
+		<li>
+		<h3>박누리</h3>
+		<img src= /clientweb/images/park.jpeg /width="400" height="500"
+		border="3"></br>
+		<b>특징</b>
+				<ul >
+				<li >사소성이 좋음 (말이 많음)</li>
+				<li>활동적임 (가만히 있지 못함)</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+		<!-- 김현정 누나 -->
+		<li>
+		<h3>김현정</h3>
+		<img src= /clientweb/images/kimh.png /width="400" height="500"
+		border="3"></br>
+		<b>특징</b>
+				<ul >
+				<li >사소성이 좋음 (말이 많음)</li>
+				<li>활동적임 (가만히 있지 못함)</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+		<!-- 문준우 -->
+		<li>
+		<h3>문준우</h3>
+		<img src= /clientweb/images/moon.png /width="400" height="500"
+		border="3"></br>
+		<b>특징</b>
+				<ul >
+				<li >사소성이 좋음 (말이 많음)</li>
+				<li>활동적임 (가만히 있지 못함)</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+		<!-- 곽혜란 -->
+		<li>
+		<h3>곽혜란</h3>
+		<img src= /clientweb/images/kwak.jpeg /width="400" height="500"
+		border="3"></br>
+		<b>특징</b>
+				<ul >
+				<li >사소성이 좋음 (말이 많음)</li>
+				<li>활동적임 (가만히 있지 못함)</li>
+				<li>기계공학 (비전공자)</li>
+				<li>도와주세요...</li>
+				</ul>
+		</li>
+	</ol>
+	
+	
+</body>
+</html>
