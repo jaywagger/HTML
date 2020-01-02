@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> 하이퍼링크 연습</h1>
+	<hr/>
+	<a href="https://www.naver.com" target="_self">네이버로 이동</a><br/>
+											<!-- 기존창에서. 교채 39페이지-->
+	<a href="https://www.naver.com" target="_blank">네이버 탭으로 이동</a>
+											<!-- 새창에서.탭 -->
+	<br/>
+	<a href="/clientweb/html/lounge.html">html기본연습: 절대경로</a>
+	<br/>
+	<a href="lounge.html">html기본연습: 상대경로</a>
+	<br/>
+	<a href="./lounge.html"><img src= /clientweb/images/moon.png width="400" height="500"
+		border="3">라운지</a></br>
+</body>
+</html>

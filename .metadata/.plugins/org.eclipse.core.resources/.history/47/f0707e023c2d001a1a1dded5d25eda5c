@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>양식 태그 테스트하기</h1>
+	<!-- 교재 85페이지 -->
+	<!-- method="get" 이거는 노출> -->
+	<!-- method="post" 이거는 노출 안돼> -->
+	<form action="/clientweb/member/login.jsp" method="get">
+		<h2>fieldset이용하기</h2>
+		<fieldset>
+			<legend>좋아하는 과목</legend>
+			<input type="checkbox" name="subject1" value="자바">자바
+			<input type="checkbox" name="subject1" value="JDBC">JDBC
+			<input type="checkbox" name="subject1" value="HTML">HTML
+			<input type="checkbox" name="subject1" value="서블릿" checked="checked">서블릿
+		<br/><br/>
+		</fieldset>
+		
+		
+	</form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>테이블 기본</h1>
+	<table>
+		<tr>
+			<th>번호</th>
+			<th>제목</th>
+			<th>저자</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>이클립스</td>
+			<td>스테파니메이어</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>트와일라잇</td>
+			<td>스테파니메이어</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>감자</td>
+			<td>스테파니메이어</td>
+		</tr>
+	</table>
+	
+	<h1>테이블 기본</h1>
+	<table border="1" width="500" height="200">
+					<!-- 경고가 뜨는 이유는 꾸미기는 되도록 CSS에서 권장 -->
+		<tr bgcolor="skyblue">
+			<th>번호</th>
+			<th>제목</th>
+			<th>저자</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>이클립스</td>
+			<td>스테파니메이어</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>트와일라잇</td>
+			<td rowspan="2">스테파니메이어</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td colspan="3">비고: <!-- 테이블 col 같은 사이즈로  -->
+			<br/> 지금은 table을 작성하기 위해 필요한 태그연습</td>
+		</tr>
+		
+	</table>
+	
+</body>
+</html>

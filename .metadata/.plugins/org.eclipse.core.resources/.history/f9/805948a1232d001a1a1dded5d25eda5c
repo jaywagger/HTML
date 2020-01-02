@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>양식 태그 테스트하기</h1>
+	<!-- 교재 85페이지 -->
+	<form actions="" method="get">
+	
+	</form>
+</body>
+</html>

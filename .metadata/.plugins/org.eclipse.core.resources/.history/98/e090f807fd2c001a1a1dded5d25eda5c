@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> 하이퍼링크 연습</h1>
+	<hr/>
+	<a href="https://www.naver.com" target="_self">네이버로 이동</a><br/>
+											<!-- 기존창에서. 교채 39페이지-->
+	<a href="https://www.naver.com" target="_blank">네이버</a>
+											<!-- 새창에서 -->
+	
+	<br/>
+	html기본연습1
+	
+</body>
+</html>

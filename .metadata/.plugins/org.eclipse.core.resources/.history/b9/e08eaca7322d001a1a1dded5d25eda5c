@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>테이블 기본</h1>
+	<table border="1" width="400" height="600" >
+		<tr>
+			<td td align="center" colspan="2">회원가입</td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td>이클립스</td>
+		</tr>
+		<tr>
+			<td>사용자 ID</td>
+			<td>트와일라잇</td>
+		</tr>
+		<tr>
+			<td>암호</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>암호 확인</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>주민등록 번호</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>전화번호</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>성별</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>직업</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td>Email 주소</td>
+			<td>감자</td>
+		</tr>
+		<tr>
+			<td td align="center" colspan="2">Email 주소</td>
+		</tr>
+	</table>
+</body>
+</html>

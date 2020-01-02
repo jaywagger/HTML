@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>테이블 기본</h1>
+	<table border="1" width="500" height="500">
+		<tr>
+			<td align="center">1</td>
+			<td align="center" colspan="2">2</td>
+			<td align="center" colspan="2" rowspan="2">3</td>
+		</tr>
+		<tr >
+			<td align="center">4</td>
+			<td align="center" rowspan="2">5</td>
+			<td align="center">6</td>
+		</tr>
+		<tr>
+			<td align="center">7</td>
+			<td align="center" colspan="3">8</td>
+		</tr>
+		<tr>
+			<td colspan="3">9</td>
+			<td colspan="2">10</td>
+		</tr>
+	</table>
+</body>
+</html>
