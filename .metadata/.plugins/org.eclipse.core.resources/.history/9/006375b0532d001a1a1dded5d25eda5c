@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 align="left">My Homepage</h1>
+	<p><img src="/clientweb/images/programmer.jpg" width ="30" height="30"> </p>
+</body>
+</html>

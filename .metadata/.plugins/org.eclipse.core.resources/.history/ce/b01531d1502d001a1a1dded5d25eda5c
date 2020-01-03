@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" width ="600" height="250">
+	<tr>
+		<td align="center" style="width:15%" colspan ="2" rowspan = "3" width ="5" height="2">
+			<img src= /clientweb/images/jy.jpeg /width="150" height="200"
+									border="3"></td>
+		<td colspan ="5"><pre>이   력	 서</pre></td>
+	</tr>
+	<tr>
+		<td colspan ="2" rowspan = "2" style="width:15%">성명</td>
+		<td style="width:3%" rowspan = "2"height = ""></td>
+		<td colspan ="2" style="width:40%">주민 등록 번호</td>
+	</tr>
+	<tr>
+		<td colspan ="2">1</td>
+	</tr>
+	<tr>
+		<td colspan ="2">1</td>
+		<td colspan ="2">1</td>
+		<td style="height:3%">1</td>
+		<td colspan ="2">1</td>
+	</tr>
+	<tr>
+		<td colspan ="2">1</td>
+		<td colspan ="2" >1</td>
+		<td style="height:3%">1</td>
+		<td colspan ="2">1</td>
+	</tr>
+	
+	
+	
+	</table>
+</body>
+</html>

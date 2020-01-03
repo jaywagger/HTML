@@ -1,0 +1,4 @@
+@charset "EUC-KR";
+body{
+	font-size: 5px;
+}

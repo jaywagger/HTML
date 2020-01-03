@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<style type="text/css">
+		ul{
+			list-style: none;
+			text-align: center;
+			font-size: 18pt;
+			font-weight: bolder;
+			border-bottom: solid 5px gray;
+			border-top: solid 5px gray;
+			padding: 10px;
+			width: 100%
+			}
+		ul li{
+			display: inline; /* 모든 항목이 한 줄에 보여짐 */
+			text-transform: uppercase;
+			padding: 10px;
+			letter-spacing: 5px;
+			color: black;
+		}
+		ul li:hover {
+				text-decoration: underline;
+			}
+		
+		#park {
+		background-color: #f0bc2e;
+		width: 100px;
+		position: fixed; /* 기존위치에서 지정한 위치로 이동 
+						- 윈도우 기준이므로 윈도우 해상도를 벗어나면 화면에서 안 보인다
+						- 윈도우 해상도를 벗어나지 않으면 스크롤해도 화면에서 지정한
+						  위치에서 고정
+						*/
+		left: 1000px;
+		top: 1000px;
+	}
+	</style>
+</head>
+<body >
+	<ul >
+		<li>Home</li>
+		<li>Product</li>
+		<li>About</li>
+		<li>Board</li>
+	
+	</ul>
+	<div id="park">홈으로 돌아가기</div>
+</body>
+</html>
