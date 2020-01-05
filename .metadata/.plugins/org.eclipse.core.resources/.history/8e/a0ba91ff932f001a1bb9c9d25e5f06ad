@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<fieldset style="width:700px; height:500px">
+			<legend>카드 정보 입력</legend>
+				<ol>
+					<li>
+						<fieldset style="width:600px; height:100px">
+							<legend>카드 타입
+								<ol>
+									<li><input type="checkbox" name="check" value="VISA"></li>
+								</ol>
+							</legend>
+						</fieldset>
+					</li>
+				</ol>
+		</fieldset>
+	
+	</form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<fieldset style="width:700px; height:500px">
+			<legend>카드 정보 입력</legend>
+				<ol>
+					<li>
+						<fieldset style="width:600px; height:100px">
+							<legend>카드 타입
+							</legend>
+								<ol>
+									<li><input type="checkbox" name="check" value="VISA">VISA</li>
+									<li><input type="checkbox" name="check" value="AmEx">AmEx</li>
+									<li><input type="checkbox" name="check" value="Mastercard">Mastercard</li>
+								</ol>
+						</fieldset>
+					</li>
+					<li>카드 번호 <input type="number" name="cardNo" value=""></li>
+					<li>CRC 번호 <input type="number" name="CRC" value=""></li>
+					<li>카드 소유자 이름<input type="text" name="cardOwner" 
+													placeholder="카드 상의 이름" value=""></li>
+				</ol>
+		</fieldset>
+		<fieldset>
+			<input type="submit" name="buy" value="구매">
+		</fieldset>
+	</form>
+</body>
+</html>

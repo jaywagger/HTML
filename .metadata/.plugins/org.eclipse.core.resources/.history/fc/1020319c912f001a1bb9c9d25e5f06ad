@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>이메일 전송화면</h3>
+	<!-- form은 input을 이용할 때 필요한 태그이고, action부분에서 submit된 내용이 
+	 sos0841@naver.com 이메일로 전송되는 예제. get은 주소에 내용을 보여줌.-->
+	<form action="MALITO:sos0841@naver.com" method="post" enctype="text/plain]">
+	이름: <input type="text" name="name" value=""><br/>
+	이메일 주소: <input type="text" name="email" value=""><br/>
+	내용:<br/>
+	<textarea name="content" rows="5" cols="50"> </textarea><br/>
+	<input type="submit" value="Send"/>
+	<input type="reset" value="Reset"/>
+	</form>
+</body>
+</html>

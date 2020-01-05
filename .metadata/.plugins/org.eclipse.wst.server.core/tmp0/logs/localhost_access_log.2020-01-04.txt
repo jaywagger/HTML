@@ -1,0 +1,14 @@
+127.0.0.1 - - [04/Jan/2020:19:03:52 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:19:03:53 +0900] "GET /clientweb/html/resume.html HTTP/1.1" 200 1104
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:19:03:54 +0900] "GET /clientweb/images/jy.jpeg HTTP/1.1" 200 351588
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:19:03:54 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:19:04:26 +0900] "GET /clientweb/html/personalnfo.html HTTP/1.1" 200 498
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:07:06 +0900] "GET /clientweb/html/resume.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:07:06 +0900] "GET /clientweb/images/jy.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:07:27 +0900] "GET /clientweb/html/myHomePage.html HTTP/1.1" 200 898
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:07:27 +0900] "GET /clientweb/images/programmer.jpg HTTP/1.1" 200 20935
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:55:57 +0900] "GET /clientweb/html/demoScreen.html HTTP/1.1" 200 701
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:55:58 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:22:56:02 +0900] "GET /clientweb/html/personalnfo.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:23:03:56 +0900] "GET /clientweb/html/resume.html HTTP/1.1" 200 1113
+0:0:0:0:0:0:0:1 - - [04/Jan/2020:23:04:08 +0900] "GET /clientweb/html/resume.html HTTP/1.1" 200 1104

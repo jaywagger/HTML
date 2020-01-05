@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<div>
+		<fieldset style=" width: 500px; height:700" >
+		배송지 주소<br/>
+		1.주소 <input type="text" name="addr" style=" width:200px; height:80px"><br/>
+		2. 우편번호 <input type="text" name="addrNo"><br/>
+		3. 국가 <input type="text" name="country"><br/>
+		</fieldset>
+		</div>
+	</form>
+</body>
+</html>
