@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--  -->
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" width ="600" height="250">
+	<tr>
+		<td align="center" style="width:15%" colspan ="2" rowspan = "4" width ="5" height="2">
+			<img src= /clientweb/images/jy.jpeg width="150" height="200"
+									border="3"></td>
+		<td colspan ="5"><pre>이   력	  서</pre></td>
+	</tr>
+	<tr>
+		<td colspan ="2" rowspan = "2" style="width:15%">성명</td>
+		<td style="width:3%" rowspan = "2"></td>
+		<td colspan ="2" style="width:40%" height="30">주민 등록 번호</td>
+	</tr>
+	<tr>
+		<td colspan ="2" height="30"></td>
+	</tr>
+		<tr>
+		<td colspan ="6" height="30"><pre>생년월일		19  년    월   일생   (만  세)</pre> </td>
+	</tr>
+	<tr>
+		<td colspan ="2">주소</td>
+		<td colspan ="2">집</td>
+		<td style="height:3%"></td>
+		<td colspan ="2" rowspan = "2"><a href="https://mail.naver.com/" target="_self">전자우편</a></td>
+	</tr>
+	<tr>
+		<td colspan ="2">연락처</td>
+		<td colspan ="2" >핸드폰</td>
+		<td style="height:3%"></td>
+	</tr>
+	
+	
+	
+	</table>
+</body>
+</html>

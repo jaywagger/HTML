@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>이메일 전송화면</h3>
+	<form>
+	이름: <input type="text" name="name" value="">
+	이메일 주소: <input type="text" name="email" value="">
+	내용:
+	</form>
+</body>
+</html>
