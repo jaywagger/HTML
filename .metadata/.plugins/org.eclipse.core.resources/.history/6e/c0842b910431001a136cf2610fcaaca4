@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		jumsu = 90;
+	
+		switch(jumsu)
+		
+		case 90:
+			document.write("수");
+		case 80:
+			document.write("우");
+		case 70:
+			document.write("미");
+		case 60:
+			document.write("양");
+		case 50:
+			document.write("가");
+			
+
+	</script>
+	
+</body>
+</html>

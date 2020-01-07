@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>My First Javascript</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var now = new Date();
+		document.write(now);
+	</script>
+</body>
+</html>

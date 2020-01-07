@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #outer{
+  	width: 80%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
+  	img{
+  		width: 300px; 
+  		height: 300px;
+  	}
+ 	 .bg-1 {
+    background-color: #ffffff; /* Green */
+    color: black;
+    float: left;
+ 	 }
+  
+  </style>
+
+</head>
+<body >
+<div id="outer">
+	<div class="bg-1">
+		<div class="container-fluid bg-1 text-center">
+			 <div class="row">
+		        <div class="col-sm-4">
+				     <img src="http://127.0.0.1:8088/clientweb/images/palawan6.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>팔라완 여행1</h3>
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan1.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>팔라완 여행2</h3>
+
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan3.jpeg"
+	   		 		class="img-rectangle"  >
+	    			<h3>팔라완 여행3</h3>
+		        </div>
+		    </div>	
+	   	
+
+	 <div class="row">
+		        <div class="col-sm-4">
+				     <img src="http://127.0.0.1:8088/clientweb/images/palawan2.jpeg"
+			   		 class="img-rectangle"  >
+			    	<h3>팔라완 여행4</h3>
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan3.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>팔라완 여행5</h3>
+
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan4.jpeg"
+	   		 		class="img-rectangle"  >
+	    			<h3>팔라완 여행6</h3>
+		        </div>
+		    </div>
+	    	
+	 <div class="row">
+		        <div class="col-sm-4">
+				     <img src="http://127.0.0.1:8088/clientweb/images/palawan9.jpeg"
+			   		 class="img-rectangle"  >
+			    	<h3>팔라완 여행7</h3>
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan7.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>팔라완 여행8</h3>
+
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan8.jpeg"
+	   		 		class="img-rectangle"  >
+	    			<h3>팔라완 여행9</h3>
+		        </div>
+		        <div class="container-fluid bg-2 text-center">
+		        <a href="http://70.12.115.61:8088/clientweb/boot
+		        strap/simplyMe.html"style="align-content: center" 
+		        class="btn btn-default btn-lg">되돌아가기</a>
+		        </div>
+		    </div>
+	    	
+	 	</div>
+	</div>
+</div>
+
+</body>
+</html>

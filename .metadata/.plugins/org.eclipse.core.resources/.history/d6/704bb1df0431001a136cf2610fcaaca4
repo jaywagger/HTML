@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		jumsu = 90;
+		alert(jumsu/10);
+		if(jumsu>100|jumsu<0){
+			document.write("잘못입력하셨습니다.")
+		}else{
+	
+			switch(jumsu/10)
+			case 9:
+				document.write("수");
+			case 8:
+				document.write("우");
+			case 7:
+				document.write("미");
+			case 6:
+				document.write("양");
+			default
+				document.write("가");
+		}
+			
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+		function printGUGU(dan){
+			for(i=1; i<10;i++){
+				document.write(dan+" x "+i+" = "+i*dan,"<br/>" );
+			}
+		}	 
+		function calcNum(num1,num2){
+			sum=num1+num2;
+			return sum;
+		}
+		function calcNum(num1,num2){
+			sum=num1+num2;
+			return sum;
+		}
+			
+	</script>
+	
+</head>
+<body>
+	<script>
+		dan= parseInt(window.prompt("구구단을 입력하세요"));
+		printGUGU(dan);
+		num1=parseInt(window.prompt("더할 숫자를 입력하세요"));
+		num2=parseInt(window.prompt("한번 더 더할 숫자를 입력하세요"));
+		alert("덧셈은:"+calcNum(num1,num2));
+	</script>
+	<br/>
+	<script>
+	for(i=0; i<10;i++){
+	
+		<input type="button" value="구구단 출력" 
+	onclick='printGUGU(window.prompt("또 구구단 입력하세요"))'/>
+		
+	}
+	</script>
+</body>
+</html>

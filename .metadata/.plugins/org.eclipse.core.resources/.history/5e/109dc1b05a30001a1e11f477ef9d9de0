@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	img{
+  		width: 300px; 
+  		height: 300px;
+  	}
+  .bg-1 {
+    background-color: #ffffff; /* Green */
+    color: black;
+    float: left;
+  }
+  #outer{
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  </style>
+
+</head>
+<body >
+<div id="outer">
+
+	<div class="bg-1">
+		<div class="container-fluid bg-1 text-center">
+			 <div class="row">
+		        <div class="col-sm-4">
+				     <img src="http://127.0.0.1:8088/clientweb/images/palawan6.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan1.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan3.jpeg"
+	   		 		class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+		        </div>
+		    </div>	
+	   	
+
+	 <div class="row">
+		        <div class="col-sm-4">
+				     <img src="http://127.0.0.1:8088/clientweb/images/palawan2.jpeg"
+			   		 class="img-rectangle"  >
+			    	<h3>호핑투어</h3>
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan3.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+
+		        </div>
+		        <div class="col-sm-4">
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan4.jpeg"
+	   		 		class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+		        </div>
+		    </div>
+	    	
+	 <div class="row">
+		        <div class="col-sm-4">
+				     <img src="http://127.0.0.1:8088/clientweb/images/palawan9.jpeg"
+			   		 class="img-rectangle"  >
+			    	<h3>호핑투어</h3>
+		        </div>
+		        <div class="col-sm-4">>
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan7.jpeg"
+	   				 class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+
+		        </div>
+		        <div class="col-sm-4">>
+		            <img src="http://127.0.0.1:8088/clientweb/images/palawan8.jpeg"
+	   		 		class="img-rectangle"  >
+	    			<h3>호핑투어</h3>
+		        </div>
+		    </div>
+	    	
+	 	</div>
+	</div>
+</div>
+
+</body>
+</html>
