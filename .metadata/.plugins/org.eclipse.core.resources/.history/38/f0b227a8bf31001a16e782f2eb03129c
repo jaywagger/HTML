@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+	today = new Date();
+	document.write(today+"<br/>");
+	str = today.getFullYear()+"년";
+	str = str + (today.getMonth()+1)+"월";
+	str = str + today.getDate()+"일";
+	str = str + today.getHours()+"시";
+	str = str + today.getMinutes()+"분";
+	str = str + today.getSeconds()+"초";
+	day = today.getDay();
+	
+		//선언,생성,초기화
+		myarr = new Array("월요일","화요일","수요일","목요일","금요일","토요일","일요일");
+		for(i=0; i<myarr.length;i++){
+			document.write("<h2>"+myarr[i]+"</h2>");
+		}
+	
+	str = str + " "+weekday;
+		</script>
+</body>
+</html>

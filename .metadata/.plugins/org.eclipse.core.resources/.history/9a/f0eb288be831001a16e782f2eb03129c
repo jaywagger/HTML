@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+	function printText(){
+		myval = amnt.test.value; //getter
+		//alert(myval); 테스트 확인 후 주석처리
+		document.getElementById("result").innerHTML = 
+			"<h1>"+myval+"</h1>";
+	}
+	</script>
+</head>
+<body>
+	<form name="amnt">
+			<label>수량: </label> 
+			<input type="text" name="cal" value=""> 
+	
+	</form>
+</body>
+</html>

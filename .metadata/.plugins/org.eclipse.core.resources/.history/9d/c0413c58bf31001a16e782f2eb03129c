@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//선언,생성,초기화
+		myarr2 = new Array("월요일","화요일","수요일","목요일","금요일","토요일","일요일");
+		for(i=0; i<myarr.length;i++){
+			document.write("<h2>"+myarr[i]+"</h2>");
+		}
+		</script>
+</body>
+</html>

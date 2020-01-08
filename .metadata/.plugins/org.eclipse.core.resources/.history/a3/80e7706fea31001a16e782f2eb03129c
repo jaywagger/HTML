@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+	function printText(){
+		input = amnt.test.value; //getter
+		//alert(myval); 테스트 확인 후 주석처리
+		totalPrice = (input*12900*0.9);
+		document.getElementById("result").innerHTML = totalPrice;
+	}
+	</script>
+</head>
+<body>
+	<form name="amnt">
+			<label>수량: </label> 
+			<input type="text" name="test" onkeyup="printText()">
+			 <span id="totalPrice"></span>
+	</form>
+	
+</body>
+</html>

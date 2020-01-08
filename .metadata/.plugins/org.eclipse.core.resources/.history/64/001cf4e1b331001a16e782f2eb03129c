@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		today = new Date();
+		document.write(today+"<br/>");
+		str = today.getFullYear()+"년";
+		str = str + (today.getMonth()+1)+"월";
+		str = str + today.getDate()+"일";
+		str = str + today.getHours()+"시";
+		str = str + today.getMinutes()+"분";
+		str = str + today.getSecond+s()+"초"
+		day = today.getDay();
+		//str = str+day;
+		
+		//switch를 활용해서 요일번호를 요일명으로 변경하기
+		weekday="";//요일명
+		switch (day) {
+		case 1:
+			day="월요일';
+			break;
+		case 2:
+			day="월요일';
+			break;
+		case 3:
+			day="월요일';
+			break;
+		case 4:
+			day="월요일';
+			break;
+		case 5:
+			day="월요일';
+			break;
+		case 6:
+			day="월요일';
+			break;
+		case 7:
+			day="월요일';
+			break;
+
+		default:
+			break;
+		}
+		document.write("<h2>"+str+"</h2>");
+		document.write
+	</script>
+</body>
+</html>
