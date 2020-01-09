@@ -12,3 +12,18 @@
 1월 08, 2020 13:15:18.06 NEW SESSION
 1월 08, 2020 13:15:18.06 [14552:13472:0108/131518.061:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
 1월 08, 2020 14:39:42.85 [11592:13476:0108/143942.856:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
+
+1월 09, 2020 08:59:27.59 NEW SESSION
+1월 09, 2020 08:59:27.59 [8100:10760:0109/085927.595:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+1월 09, 2020 08:59:27.64 [8100:10760:0109/085927.596:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+1월 09, 2020 08:59:27.64 [8100:10760:0109/085927.596:ERROR:disk_cache.cc(178)] Unable to create cache
+1월 09, 2020 08:59:27.65 [8100:10760:0109/085927.596:ERROR:shader_disk_cache.cc(605)] Shader Cache Creation failed: -2
+1월 09, 2020 08:59:42.45 [10608:7384:0109/085942.454:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+1월 09, 2020 08:59:42.47 [10608:7384:0109/085942.454:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\student\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+1월 09, 2020 08:59:42.50 [10608:7384:0109/085942.454:ERROR:disk_cache.cc(178)] Unable to create cache
+1월 09, 2020 08:59:42.50 [10608:7384:0109/085942.454:ERROR:shader_disk_cache.cc(605)] Shader Cache Creation failed: -2
+1월 09, 2020 09:05:26.81 [10868:11680:0109/090526.816:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
+1월 09, 2020 11:20:56.62 [7596:13456:0109/112056.625:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
+1월 09, 2020 14:11:40.79 [8420:14248:0109/141140.797:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
+1월 09, 2020 16:52:35.31 [10872:14828:0109/165235.312:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
+1월 09, 2020 17:20:48.28 [13080:10644:0109/172048.285:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118

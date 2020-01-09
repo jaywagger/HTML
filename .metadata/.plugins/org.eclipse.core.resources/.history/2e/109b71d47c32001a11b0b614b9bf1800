@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title> New Document </title>
+	<script type="text/javascript">
+	function printText(){
+		input = amnt.test.value; //getter
+		//alert(myval); 테스트 확인 후 주석처리
+		totalPrice = (input*12900*0.9);
+		document.getElementById("totalPrice").innerHTML = totalPrice;
+	}
+	</script>
+</HEAD>
+<BODY>
+<br>
+<br>
+<br>
+
+<h1>계산기 활용 예</h1>
+<!-- 올바른 값이 들어온다고  전제 -->
+<form name="myform">
+<table border="1">
+	<tr>
+		<td colspan="4"><input type="text" size="28" name="mytext"></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="   7   " onclick="button_click('7')" onkeyup="printText()></td>
+		<td><input type="button" value="   8   " onclick="button_click('8')" onkeyup="printText()></td>
+		<td><input type="button" value="   9   " onclick="button_click('9')" onkeyup="printText()></td>
+		<td><input type="button" value="   /   " onclick="button_click('/')" onkeyup="printText()></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="   4   " onclick="button_click('4')" onkeyup="printText()></td>
+		<td><input type="button" value="   5   " onclick="button_click('5')" onkeyup="printText()></td>
+		<td><input type="button" value="   6   " onclick="button_click('6')" onkeyup="printText()></td>
+		<td><input type="button" value="   *   " onclick="button_click('*')" onkeyup="printText()></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="   1   " onclick="button_click('1')" onkeyup="printText()></td>
+		<td><input type="button" value="   2   " onclick="button_click('2')" onkeyup="printText() ></td>
+		<td><input type="button" value="   3   " onclick="button_click('3')" onkeyup="printText()></td>
+		<td><input type="button" value="   -   " onclick="button_click('-')" onkeyup="printText()></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="   0   " onclick="button_click('0')" onkeyup="printText()></td>
+		<td><input type="button" value="   .    " onclick="button_click('.')" onkeyup="printText()></td>
+		<td><input type="button" value="   +   " onclick="button_click('+')" onkeyup="printText()></td>
+		<td><input type="button" value="   %  " onclick="button_click('%')" onkeyup="printText()></td>
+	</tr>
+	<tr>
+		<td  colspan="2"><input type="button" value="  계산하기  " onclick="compute()"></td>
+		<td  colspan="2"><input type="button" value="   지우기    " onclick="clear_del()"></td>
+	</tr>
+</table>
+</form>
+
+</BODY>
+</HTML>
