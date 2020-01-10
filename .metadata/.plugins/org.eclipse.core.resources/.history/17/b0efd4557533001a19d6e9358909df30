@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- jQuery 라이브러리 서버 주소 -->
+	<link rel="stylesheet" href="../common/css/my_style.css"/>
+</head>
+<body>
+	<div id="clickMe">여기를 누르세요.</div>
+	
+	<div id="picframe">
+		<img alt="" src="../images/m_garden01.jpg"/>
+	</div>
+	
+	<script type="text/javascript">
+		//$ Jquery 시작은 달러  $ = css 선택자 정의과 같은 의미 #
+		$(document).ready(function() { 
+			//제이쿼리 문법: 페이지가 로딩되고 DOM객체가 형성이 되면 작업을 시작
+			//익명의 함수를 실행한다.
+			//window.onload =function(){}와 같은 문법
+		  //alert("jQuery시작................");
+			
+			$("#clickMe").click(function() {
+				//clickMe로 id가 정의된 객체가 클릭되면 익명의 함수를 사용
+				//alert("div눌러짐");
+				
+				/* 우리가 원하는거: id가 picframe으로 정의된 객체를 
+				화면에 보여지도록하고 다시 클릭하면 화면에서 사라지도록 */
+				$("")
+				
+			});
+		});
+	
+	</script>
+</body>
+</html>
