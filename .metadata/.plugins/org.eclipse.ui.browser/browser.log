@@ -145,3 +145,6 @@
 1월 10, 2020 09:44:18.12 [7980:10732:0110/094418.067:ERROR:shader_disk_cache.cc(605)] Shader Cache Creation failed: -2
 1월 10, 2020 09:45:25.07 [1264:6592:0110/094525.071:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
 1월 10, 2020 14:10:59.05 [13832:9524:0110/141059.053:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118
+
+1월 13, 2020 14:04:50.21 NEW SESSION
+1월 13, 2020 14:04:50.21 [10696:10728:0113/140450.214:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -118

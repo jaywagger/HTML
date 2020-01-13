@@ -2,12 +2,18 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="firstP" key="selection"/>
+		<item value="getPass" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="getPass"/>
+			<item value="pass"/>
+			<item value="meme"/>
+			<item value="login"/>
+			<item value="result"/>
+			<item value="data"/>
 			<item value="firstP"/>
 			<item value="&quot;pclass&quot;"/>
 			<item value="p class"/>
@@ -17,12 +23,6 @@
 			<item value="myfunc2"/>
 			<item value="myform"/>
 			<item value="calcpriceArr"/>
-			<item value="result"/>
-			<item value="NaN"/>
-			<item value="logo"/>
-			<item value="just"/>
-			<item value="repeat"/>
-			<item value="email"/>
 		</list>
 		<list key="replacehistory">
 		</list>
