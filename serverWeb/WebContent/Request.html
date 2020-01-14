@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>서블릿요청하기</h1>
+	<hr/>
+	<h2>get방식으로 요청하기</h2>
+	<h3>(a태그와 하이퍼링크를 클릭하는 것은 get방식이다)</h3>
+	<!-- <a href="http://70.12.115.61:8088/serverWeb/first.multi">받은 편지함(하이퍼링크 요청하기)</a>
+ --><a href="/serverWeb/first.multi">받은 편지함(하이퍼링크 요청하기)</a>
+	
+	<form method="get" action="/serverWeb/life.html">
+	<input type="text" name="id"><br/>
+	<input type="submit" value="전송">
+	</form>
+	<form action="/serverWeb/life.html">
+	<input type="text" name="id"><br/>
+	<input type="submit" value="전송">
+	</form>
+	
+	<h2>Post방식으로 요청하기</h2>
+	<form method="post" action="/serverWeb/life.html">
+	<input type="text" name="id"><br/>
+	<input type="submit" value="전송">
+	</form>
+</body>
+</html>
