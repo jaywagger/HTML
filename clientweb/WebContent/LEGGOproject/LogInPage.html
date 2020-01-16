@@ -11,7 +11,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style type="text/css">
 #outer {
-	background-image: linear-gradient(white, grey); 
+	background-image: linear-gradient(white, grey);
 	height: 1200px;
 	/* background: #ddd; */
 	/* background-color: yellow; */
@@ -32,7 +32,7 @@
 }
 
 #header {
-	/* background-color: yellow;  */ 
+	/* background-color: yellow;  */
 	text-align: right;
 	padding-top: 50px;
 	width: 100%;
@@ -51,7 +51,7 @@
 }
 
 #MenuBtn {
-	background-color: #2f5597; 
+	background-color: #2f5597;
 	color: white;
 	width: 200px;
 	height: 200px;
@@ -81,24 +81,28 @@
 		<!-- --------------해더입니다-------------- -->
 		<div id="header">
 			<div id="logo">
-				<br />
-				<br /> 
-				<a href="https://www.naver.com/"> 
-				<img src="../images/project/LeggoLogo.png" width=20%
-					height=20% alt="Random Name">
+				<br /> <br /> <a href="https://www.naver.com/"> <img
+					src="../images/project/LeggoLogo.png" width=20% height=20%
+					alt="Random Name">
 				</a>
 			</div>
 		</div>
 		<!-- --------------컨텐츠입니다-------------- -->
 		<div id="content">
-			<form method="post" action="">
-				아이디:<input type="text" name="id"><br/>
-				비밀번호:<input type="password" name="pass">
-				<input type="submit" value="로그인"><br/>
-				<a href="https://www.naver.com/">아이디 찾기</a>	
-				<a href="https://www.naver.com/">비밀번호 찾기</a>
-				<a href="https://www.naver.com/">회원가입하기</a>
-				
+			<form method="post" action="/serverWeb/mypost2.do">
+				<table>
+					<tr>
+						<td>아이디</td>
+						<td><input type="text" name="userId" size="10" /></td>
+					</tr>
+					<tr>
+						<td>비밀번호</td>
+						<td><input type="password" name="passwd" size="10" /></td>
+					</tr>
+				</table>
+				<p />
+				<input type="submit" value="입력완료" /> 
+				<input type="reset" value="재입력" />
 			</form>
 		</div>
 		<!-- --------------광고입니다-------------- -->
