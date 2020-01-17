@@ -1,0 +1,89 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<fieldset>
+	<div>
+		<legend><a href="/serverWeb/dept/list.do">부서 전체 목록 보기</a></legend>
+	</div> 
+</fieldset>
+<!-- 하이퍼링크는 무적건 Get방식 
+	1. 요청정보가 없음: 클라이언트가 입력s값 없음
+	2. 비즈니스 로직: DeptDTO 여러게를 뽑아야 함. ArrayList가
+	배열 값 미리 지정안해도 되므로 이걸로 사용		
+-->
+
+<div class="container-fluid">
+		<form role="form" class="form-horizontal"
+			action="/serverWeb/JSP/JSPBasic/insert.jsp" method="POST">
+			<fieldset>
+				<div id="legend">
+					<legend>아래 양식을 작성해주세요.</legend>
+				</div>
+				<div class="form-group">
+					<!-- 부서코드 -->
+					<label class="control-label col-sm-2" for="orgcode">부서코드</label>
+					<div class="col-sm-3">
+						<input type="text" id="orgcode" name="deptNo"
+							placeholder="부서코드" class="form-control"
+							 required>
+					</div>
+				</div>
+				<div class="form-group">
+					<!-- 부서명-->
+					<label class="control-label col-sm-2" for="orgname">부서명</label>
+					<div class="col-sm-3">
+						<input type="text" id="orgname" name="deptName"
+							placeholder="부서명" class="form-control" minlength="4" required>
+
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<!-- 부서위치-->
+					<label class="control-label col-sm-2" for="orgloc">부서위치</label>
+					<div class="col-sm-3">
+						<input type="text" id="orgloc" name="loc"
+							placeholder="부서위치" class="form-control" minlength="4" >
+
+					</div>
+				</div>
+				<div class="form-group">
+					<!-- 전화번호-->
+					<label class="control-label col-sm-2" for="orgtel">전화번호</label>
+					<div class="col-sm-3">
+						<input type="text" id="orgtel" name="tel" 
+						placeholder="전화번호"
+							class="form-control" minlength="4" required>
+
+					</div>
+				</div>
+				<div class="form-group">
+					<!-- 매니저-->
+					<label class="control-label col-sm-2" for="orgtel">관리자</label>
+					<div class="col-sm-3">
+						<input type="text" id="orgtel" name="mgr" 
+						placeholder="관리자"
+							class="form-control" minlength="4" required>
+
+					</div>
+				</div>
+
+				<div class="form-group">
+					<!-- Button -->
+					<div class="col-sm-3 col-sm-offset-2">
+						<input type="submit" value="가입하기" class="btn btn-success"/>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+</div>
+
+</body>
+</html>
