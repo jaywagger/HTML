@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="desktop">
+<head>
+  <meta charset="utf-8">
+  <title>우아한형제들</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href="css/default.css" rel="stylesheet">
+  <link href="css/main-desktop.css" rel="stylesheet">
+  <link href="favicon/favicon.ico" rel="shortcut icon">
+  <script src="js/app-desktop.js"></script>
+  <script src="js/jquery.browser.js"></script>
+  <meta name="naver-site-verification" content="9b6a9f890dc78f921d5c4b87fdb6ceaaf5549a17" />
+  <meta name="description" content="배달의민족, 배민라이더스 등 서비스 소개, 제휴, 문의 안내.">
+  <meta property="og:title" content="우아한형제들">
+  <meta property="og:site_name" content="우아한형제들">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.woowahan.com">
+  <meta property="og:image" content="http://www.woowahan.com/img/mobile/woowabros.jpg">
+  <meta property="og:description" content="좋은 음식을 먹고 싶은 곳에서~! 우아한 사람들이 모여 우와하게 일하는 '우아한형제들'입니다.">
+  <link rel="canonical" href="https://www.woowahan.com">
+  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-23009103-20', 'auto');ga('send', 'pageview');</script>
+</head>
+<body>
+<div id="app"></div>
+<script>
+  (function(w, d){
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script"); s.async = true;
+    var v = !("IntersectionObserver" in w) ? "8.6.0" : "10.4.1";
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+    w.lazyLoadOptions = {
+      elements_selector: '.lazy',
+      callback_enter: function(el) {
+        $(el).addClass('on');
+      }
+    };
+    w.addEventListener('LazyLoad::Initialized', function (event) {
+      w.lazyLoad = event.detail.instance;
+    }, false);
+    b.appendChild(s);
+  }(window, document));
+</script>
+</body>
+</html>
