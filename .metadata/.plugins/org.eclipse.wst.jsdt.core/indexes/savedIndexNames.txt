@@ -1,3 +1,3 @@
-INDEX VERSION 1.4+C:\IoT_JY Hwang\WebWork\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+INDEX VERSION 1.4+C:\IoTJY\WebWork\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 3435695710.index
 4113188648.index
